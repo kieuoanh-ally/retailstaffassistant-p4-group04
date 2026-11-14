@@ -1,16 +1,6 @@
-@"
-# Build output
-*.exe
+﻿bin/
 *.o
-*.out
-build/
-
-# IDE
+*.exe
+a.out
 .vscode/
-.idea/
-*.swp
-
-# OS
 .DS_Store
-Thumbs.db
-"@ | Set-Content .gitignore
